@@ -1,0 +1,20 @@
+git config --global user.name " "
+git config --global user.email " "
+git init
+
+git status
+git add <增加的檔案名稱>
+git commit -m "更改狀態敘述"
+
+git log -oneline
+git diff <還原點> --<檔案名稱>
+
+git checlout <還原點> --<檔案名稱>
+git status
+git commit -m "更改狀態敘述"
+
+git reset --hard <還原點>
+
+
+
+
